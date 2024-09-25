@@ -1,0 +1,33 @@
+{
+  "name": "chatbot-ia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node ./src/main",
+    "build": "npx tsc && npx tsc-alias"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.19.0",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.1",
+    "@types/ws": "^8.5.12",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.13.2",
+    "flatted": "^3.3.1",
+    "jest": "^29.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "telegraf": "^4.16.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2",
+    "winston": "^3.14.2"
+  }
+}
